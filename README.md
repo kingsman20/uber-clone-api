@@ -2,8 +2,6 @@
 
 Server for the (N)Uber Clone Course on Nomad Academy. GraphQL, Typescript, NodeJS
 
-[Learn how to make this](https://academy.nomadcoders.co/p/nuber-fullstack-javascript-graphql-course/)
-
 ## Resolvers
 
 ### Public Resolvers:
@@ -47,8 +45,3 @@ Server for the (N)Uber Clone Course on Nomad Academy. GraphQL, Typescript, NodeJ
 - [x] Get Chat Room Messages
 - [x] Send a Chat Message
 - [x] Subscribe to Chat Room Messages
-
-## Code Challenge
-
-- [ ] Get Ride History
-- [ ] See Ride Detail
