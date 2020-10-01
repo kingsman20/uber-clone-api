@@ -1,0 +1,48 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node index.ts -e js,ts,graphql",
+    "types": "graphql-to-typescript ./src/api/**/*.graphql ./src/types/graph.d.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.7",
+    "@types/helmet": "0.0.48",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/mailgun-js": "^0.22.10",
+    "@types/morgan": "^1.9.1",
+    "@types/node": "^14.11.2",
+    "@types/twilio": "^2.11.0",
+    "babel-node": "0.0.1-security",
+    "babel-runtime": "^6.26.0",
+    "gql-merge": "0.0.6",
+    "graphql-to-typescript": "^0.1.2",
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.0.3",
+    "@types/bcrypt": "^2.0.0"
+  },
+  "dependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "bcrypt": "^5.0.0",
+    "class-validator": "^0.12.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "graphql-tools": "^6.2.3",
+    "graphql-yoga": "^1.18.3",
+    "helmet": "^4.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "merge-graphql-schemas": "^1.7.8",
+    "morgan": "^1.10.0",
+    "pg": "^8.3.3",
+    "twilio": "^3.49.4",
+    "typeorm": "^0.2.26"
+  }
+}
